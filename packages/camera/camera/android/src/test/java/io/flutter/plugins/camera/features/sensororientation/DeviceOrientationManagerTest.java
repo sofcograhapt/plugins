@@ -36,7 +36,6 @@ public class DeviceOrientationManagerTest {
   private DeviceOrientationManager deviceOrientationManager;
 
   @Before
-  @SuppressWarnings("deprecation")
   public void before() {
     mockActivity = mock(Activity.class);
     mockDartMessenger = mock(DartMessenger.class);
